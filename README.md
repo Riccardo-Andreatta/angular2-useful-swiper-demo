@@ -8,4 +8,4 @@ For example, images can loop in a carousel, or the transition between the slides
 
 See [angular2-useful-swiper](https://www.npmjs.com/package/angular2-useful-swiper) for more details about the Angular wrapper.
 
-See [Swiper API](http://idangero.us/swiper/api/) for all the options available to the Swiper.
+See [Swiper API](http://idangero.us/swiper/api/) for all the options available for the Swiper.
