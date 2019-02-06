@@ -33,7 +33,28 @@
                     <img [src]="image" alt="image" class="slide" (click)="swiperGallery.swiper.slideTo(i + 1)">
                 </div>
             </div>
-            <div class="swiper-notification"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </swiper>
+    </section>
+
+    <h3>Swiper with vertical navigation thumbnails</h3>
+
+    <section class="swiper-container swiper-nav-vertical">
+        <swiper class="swiper" [config]="config_gallery_vertical" #swiperGallery_vertical>
+            <div class="swiper-wrapper">
+                <div *ngFor="let image of images" class="swiper-slide">
+                    <img [src]="image" alt="image" class="slide">
+                </div>
+            </div>
+        </swiper>
+
+        <swiper class="swiper-gallery" [config]="config_thumbs_vertical" #swiperThumbs_vertical>
+            <div class="swiper-wrapper">
+                <div *ngFor="let image of images; let i = index" class="swiper-slide">
+                    <img [src]="image" alt="image" class="slide" (click)="swiperGallery_vertical.swiper.slideTo(i + 1)">
+                </div>
+            </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </swiper>
