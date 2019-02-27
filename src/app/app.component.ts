@@ -17,7 +17,8 @@ export class AppComponent {
         'https://picsum.photos/700/250/?image=41',
         'https://picsum.photos/700/250/?image=28',
         'https://picsum.photos/700/250/?image=21',
-        'https://picsum.photos/700/250/?image=20'
+        'https://picsum.photos/700/250/?image=20',
+        'https://picsum.photos/400/250/?image=75'
     ];
     public config: Object = {
         paginationClickable: true,
