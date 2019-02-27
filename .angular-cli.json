@@ -13,10 +13,10 @@
             "prefix": "app",
             "styles": [
                 "styles.css",
-                "../../node_modules/swiper/dist/css/swiper.css"
+                "../node_modules/swiper/dist/css/swiper.css"
             ],
             "scripts": [
-                "../../node_modules/swiper/dist/js/swiper.js"
+                "../node_modules/swiper/dist/js/swiper.js"
             ],
             "environmentSource": "environments/environment.ts",
             "environments": {
