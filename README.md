@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b5780d13-e165-4cfa-844a-7836bd05a237/deploy-status)](https://app.netlify.com/sites/angular2-useful-swiper-demo/deploys)
+
 # angular2-useful-swiper-demo
 
 `angular2-useful-swiper` is a wrapper for [idangerous Swiper](http://idangero.us/swiper/get-started/) in Angular.
