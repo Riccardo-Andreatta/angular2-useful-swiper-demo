@@ -1,6 +1,8 @@
 {
     "name": "angular2-useful-swiper-demo",
-    "version": "0.0.0",
+    "version": "1.0.0",
+    "keywords": [],
+    "description": "angular2-useful-swiper demo to create carousels and swiping images.\nImages can loop or not and anomations can start automatically.\nSee here for more details: https://www.npmjs.com/package/angular2-useful-swiper"
     "license": "MIT",
     "scripts": {
         "ng": "ng",
@@ -10,7 +12,6 @@
         "lint": "ng lint",
         "e2e": "ng e2e"
     },
-    "private": true,
     "dependencies": {
         "@angular/animations": "^5.2.0",
         "@angular/common": "^5.2.0",
@@ -47,7 +48,5 @@
         "ts-node": "~4.1.0",
         "tslint": "~5.9.1",
         "typescript": "~2.5.3"
-    },
-    "keywords": [],
-    "description": "angular2-useful-swiper demo to create carousels and swiping images.\nImages can loop or not and anomations can start automatically.\nSee here for more details: https://www.npmjs.com/package/angular2-useful-swiper"
+    }
 }
